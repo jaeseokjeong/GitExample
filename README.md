@@ -1,6 +1,6 @@
 # article-about-data
 
-### [신한은행 이동경로 분석](http://www.fntimes.com/html/view.php?ud=201803190023486486dd55077bc2_18)
+## [<신한은행 이동경로 분석>](http://www.fntimes.com/html/view.php?ud=201803190023486486dd55077bc2_18)
 
 신한은행은 고객의 금융 검색 여정을 추적해 이탈 가능성이 높은 고객을 붙잡는 이동경로분석 솔루션 구축
 
@@ -8,7 +8,7 @@
 
 이동경로 분석을 통해 주요 현안에 대한 통찰을 얻을 수 있다.
 
-### [예측에서 피해야할 8가지 함정들](https://www.kdnuggets.com/2018/03/8-common-pitfalls-ruin-prediction.html)
+## [<예측에서 피해야할 8가지 함정들>](https://www.kdnuggets.com/2018/03/8-common-pitfalls-ruin-prediction.html)
 
 Keep in mind
 
@@ -51,8 +51,20 @@ Neural Networks – 복잡한 경우 가장 높은 예측파워 하지만 extrao
 
 이러한 요인들이 아이스크림매출에 correlated 되어 있다. 
 
-Corrleate된 변수를 추가하는 것은 큰 문제가 되지 않다. 
+correlated된 변수를 추가하는 것은 큰 문제가 되지 않다. 
 
 왜냐하면 예측알고리즘이 자동적으로 그것을 제거해줄 것이기 떄문이다.
+
+
+## [<Difference of Data Science, Machine Learning and Data Mining>](https://www.datasciencecentral.com/profiles/blogs/difference-of-data-science-machine-learning-and-data-mining?utm_content=buffer724b0&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer)
+
+data science: 모든 종류의 데이터를 다루는 것. Data cleansing, preparation 그리고 데이터 분석까지 모든 것을 포함한다. 여러가지 테크닉을 사용해 데이터에서 새로운 정보나 인사이트를 뽑아내는 전 과정을 의미. 
+
+Data handling에 초점. 기존의 시스템에서는 사용하지 않았던 것에 데이터를 접목할 수 있도록.
+
+data mining:이전에 몰랏던 것을 큰 데이터로 더미로부터 얻고 비즈니스 결정에 그 정보를 이용하는 과정. 알고리즘은 데이터로부터 지식을 얻는 하나의 수단일뿐.
+
+Machine learning: 컴퓨터가 새로운 데이터에 대해 스스로 학습할 능력을 만드는 것. 알고리즘 짜는 것에 포커스가 되어있음
+
 
 
