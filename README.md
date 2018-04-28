@@ -67,4 +67,33 @@ data mining:이전에 몰랏던 것을 큰 데이터로 더미로부터 얻고 �
 Machine learning: 컴퓨터가 새로운 데이터에 대해 스스로 학습할 능력을 만드는 것. 알고리즘 짜는 것에 포커스가 되어있음
 
 
+## [<8 ways of Boosting Performance of Machine Learning Models>](http://houseofbots.com/news-detail/2520-4-8-ways-of-boosting-performance-of-machine-learning-models)
+
+1.	Data 추가
+상황에 따라 추가해야 될 시기는 다르다. 시계열의경우 적어도 1년치 필요. Neural network도 많이 필요
+
+2.	Feature engineering (변수추가)
+새로운 변수추가는 모델의 variance를 증가시키는 대가로 bias를 줄임.
+존재하는 데이터로부터 변수를 뽑아내야 한다. 예를들어 ATM에서 현금인출을 예측하고 싶을 때 월초에 더 많이 인출될 것이다. 사기탐지 모델 만들 때는 소득대비 대출비율들을 만들 수 있음
+
+3.	변수선택 (Feature selection)
+Make everything as simple as possible, but no simpler – Albert Einstein
+Select best features, add new features
+각각의 변수가 모델에 기여하는 정도를 살펴봐야 한다.
+100개의 변수가 있을 때, 단순히 p-value기준으로 변수를 선택하면 여전히 많은 변수가 선택된다. 하지만 만약 15의 개의 변수로 모델의 90%가 설명된다면 15개 변수모델을 선택하는 것이 옳다.
+
+4.	Missing value and Outlier treatment
+
+5.	Ensemble Models
+어떤모델은 데이터의 variance를 포착하는데 좋고, 어떤 모델은 트렌드만 포착하는데 좋기 떄문에 결국 합친 것이 더 잘 작동한다.
+
+6.	Using the suitable machine learning algorithm
+여러가지 모델을 해보고 가장 효율적인 것 찾아야 한다. 데이터에 따라 효율적인 모델이 다르기 때문
+
+7.	Auto-feature generation
+이것이 딥러닝의 가장 큰 장점. 머신러닝 알고리즘에서 변수의 quality는 정확성에 있어서 매우 중요하다. 그러나 딥러닝 알고리즘은 feature engineering을 필요로하지 않음. 스스로 학습한다. Ex 이미지분류
+
+8.	Data distribution and parameter tuning
+예를 들어, 랜덤포레스트 사용시 나무의 개수, 몇 개의 변수를 선택할지 등 파라미터 튜닝 필요. 또는 딥러닝 알고리즘 구현시 얼마나 많은 층을 필요로 할지 등.
+
 
